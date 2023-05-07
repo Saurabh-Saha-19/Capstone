@@ -7,12 +7,12 @@ import { getStorage } from "firebase/storage";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyD_sAyCiiQ4B7miyv6I1Ya7YCXJJlXKy1w",
-  authDomain: "i-kreative.firebaseapp.com",
-  projectId: "i-kreative",
-  storageBucket: "i-kreative.appspot.com",
-  messagingSenderId: "140775994821",
-  appId: "1:140775994821:web:b263363d02bcd7c86587ac",
+  apiKey: "AIzaSyBbjXKXBWmxETsreYPlKA5ZbSEfYP0ujaQ",
+  authDomain: "creativegram-cf3b3.firebaseapp.com",
+  projectId: "creativegram-cf3b3",
+  storageBucket: "creativegram-cf3b3.appspot.com",
+  messagingSenderId: "118849484664",
+  appId: "1:118849484664:web:9e7dbca7521143abf17a8d",
 };
 
 // Initialize Firebase
