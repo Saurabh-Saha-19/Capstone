@@ -8,7 +8,6 @@ function Feed() {
   return (
     <main
       className={`grid grid-cols-6 
-      max-w-lg
       sm:grid-cols-6
       sm: max-w-2xl
       md:grid-cols-8 

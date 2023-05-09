@@ -82,6 +82,13 @@ function Header() {
                 className="h-8 rounded-full cursor-pointer"
                 src={session.user.image}
               />
+
+              <button
+                onClick={signOut}
+                className="font-montserrat text-sm text-white rounded-full p-2 mt-2 bg-indigo-500 hover:bg-indigo-700"
+              >
+                Sign Out
+              </button>
             </>
           ) : (
             <button onClick={signIn} className="font-montserrat">
