@@ -85,7 +85,7 @@ function Header() {
 
               <button
                 onClick={signOut}
-                className="font-montserrat text-xs text-white rounded-full p-2 mt-2 bg-indigo-500 hover:bg-indigo-700 sm:hidden"
+                className="font-montserrat text-xs text-white rounded-full p-2 bg-indigo-500 hover:bg-indigo-700 sm:hidden"
               >
                 Sign Out
               </button>
