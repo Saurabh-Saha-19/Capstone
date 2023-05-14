@@ -15,7 +15,7 @@ const Card = ({ id, key, username, userImg, img, caption }) => (
           <div className="w-7 h-7 rounded-full object-cover bg-green-700 flex justify-center items-center text-white text-xs font-bold">
             <img className="rounded-full" src={userImg} />
           </div>
-          <p className="font-montserrat text-sm font-medium">
+          <p className="font-montserrat text-sm text-white font-medium">
             {username}
           </p>
         </div>

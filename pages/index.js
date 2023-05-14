@@ -2,10 +2,10 @@ import Head from "next/head";
 import Feed from "@/components/Feed";
 import Header from "@/components/Header";
 import Modal from "@/components/Modal";
-import { useSession } from "next-auth/react";
+
 
 export default function Home() {
-  //const { data: session } = useSession();
+
   return (
     <div className="">
       <Head>
@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
 
       {/* Feed */}
-      <Feed />
+      {/* <Feed /> */}
 
       {/* Modal */}
       <Modal />
